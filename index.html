@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="wonbae">
+    <meta name="description" content="PADI">
+    <title>PADI</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./images/favicon/i32.jpg">
+    <link rel="apple-touch-icon=precomposed" href="./images/favicon/i180.jpg">
+    <!-- 기본코딩 JS 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+    <!-- 기본코딩 CSS 파일 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/notosans_kr_CDN.css">
+    <!-- 페이지 CSS -->
+    <link rel="stylesheet" href="./css/rwd_template.css">
+    
+    <!-- 박스슬라이더 CSS -->
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+    <style>
+        article {
+            max-width: 1920px;
+            margin: 0 auto;
+        }
+        article #gallery_wrap {
+            max-width: 1920px;
+        }
+        article #gallery_wrap img {
+            width: 100%;
+        }
+    </style>
+    <!-- 박스 슬라이더 JS -->
+    <script src="./js/jquery.bxslider.js"></script>
+</head>
+<body>
+    <div class="curtain"></div>
+    <button id="topButton"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
+    <div id="wrap">
+        <!-- 1.Header -->
+        <header class="header cf">
+            <!-- Logo -->
+            <h1 class="logo"><a href="index.html"><img src="./images/PADI/PADI_Logo_K.png" alt="PADI"></a></h1>
+            <!-- /Logo -->
+            <!-- GNB -->
+            <nav>
+                <ul class="gnb">
+                    <li class="no_ml"><a href="#course">Course</a></li>
+                    <li><a href="#travel">Travel</a></li>
+                    <li><a href="#conservation">Conservation</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#">Membership</a></li>
+                </ul>
+            </nav>
+            <!-- /GNB -->
+            <!-- Hamburger Toggle -->
+            <span class="menu_toggle_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <!-- /Hamburger Toggle -->
+        </header>
+        <!-- /1.Header -->
+
+        <!-- 2. Slider -->
+      
+        <!-- 2-2. 슬라이드 제이쿼리 플러그인 작업 -->
+        <article class="slider">
+            <div id="gallery_wrap">
+                <!-- BxSlider 이미지 -->
+                <ul class="slide_gallery">
+                    <li><img src="./images/img_bxSlider/s1.png" alt="슬라이드01"></li>
+                    <li><img src="./images/img_bxSlider/s2.jpg" alt="슬라이드02"></li>
+                    <li><img src="./images/img_bxSlider/s3.jpg" alt="슬라이드03"></li>
+                    <li><img src="./images/img_bxSlider/s4.png" alt="슬라이드04"></li>
+                    <li><img src="./images/img_bxSlider/s5.png" alt="슬라이드05"></li>
+                </ul>
+            </div>
+        </article>
+        <!-- 2. /Slider -->
+        <div id="course"></div>
+        <!-- 3. Contents -->
+        <main role="main">
+            <section class="content">
+                <!-- 3-1. Display -->
+                <section class="display_section container" >
+                    <div class="cf">
+                        <h2 class="sec_title">Dive & Protect</h2>
+                        <p class="desc">
+                            The blue planet is our place to reconnect, decompress and explore an amazing world beneath the waves.
+                            PADI is a passionate community of underwater enthusiasts motivated to protect what is worth saving – join us!
+                        </p>
+                    </div>
+                </section>
+                <!-- 3-1. /Display -->
+    
+                <!-- 3-2. Promotion -->
+                <section class="promotion_section container">
+                    <h2>
+                    <ul class="promotion_list cf">
+                        <li>
+                            <a href="#">
+                                <img src="./images/PADI/pr1.png" alt="Beginners">
+                                <h3>BEGINNERS</h3>
+                                <p>
+                                    Start your scuba diving certification
+                                </p>
+                                <a href="#" class="button">become a diver</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/PADI/pr2.png" alt="Divers">
+                                <h3>DIVERS</h3>
+                                <p>
+                                    Discover more of the underwater world.
+                                </p>
+                                <a href="#" class="button">get started</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/PADI/pr3.jpg" alt="Pro">
+                                <h3>PROFESSIONAL DIVERS</h3>
+                                <p>
+                                    Become a PADI Professional. 
+                                </p>
+                                <a href="#" class="button">see all courses</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/PADI/pr4.png" alt="Master">
+                                <h3>DIVEMASTERS</h3>
+                                <p>
+                                    Master Instructor
+                                </p>
+                                <a href="#" class="button">start today</a>
+                            </a>
+                        </li>
+                    </ul>
+                   </h2>
+                </section>
+                <!-- 3-2. /Promotion -->
+    
+                <hr class="m_divider">
+                <div id="travel"></div>
+                <!-- 3-3. Work -->
+                <section class="work_section">
+                    <div>
+                        <h2 class="sec_title container">Dive Travel</h2>
+                        <ul class="work_list cf">
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>Sipadan</h3>
+                                        <span>Malaysia</span>
+                                    </div>
+                                    <img src="./images/PADI/w1.jpg" alt="travel1">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>The Sea of Cortez</h3>
+                                        <span>Mexico</span>
+                                    </div>
+                                    <img src="./images/PADI/w2.jpg" alt="travel2">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>SS Thistlegorm, Red Sea</h3>
+                                        <span>Egypt</span>
+                                    </div>
+                                    <img src="./images/PADI/w3.jpg" alt="travel3">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>Vancouver Island</h3>
+                                        <span>Canada</span>
+                                    </div>
+                                    <img src="./images/PADI/w4.jpg" alt="travel4">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>Cozumel</h3>
+                                        <span>Mexico</span>
+                                    </div>
+                                    <img src="./images/PADI/w5.png" alt="travel5">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>Richelieu Rock, Andaman Sea</h3>
+                                        <span>Thailand</span>
+                                    </div>
+                                    <img src="./images/PADI/w6.jpg" alt="travel6">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>Sha’b Rumi</h3>
+                                        <span>Sudan</span>
+                                    </div>
+                                    <img src="./images/PADI/w7.jpg" alt="travel7">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>The Great Blue Hole</h3>
+                                        <span>Belize</span>
+                                    </div>
+                                    <img src="./images/PADI/w8.jpg" alt="travel8">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- 3-3. /Work -->
+    
+                <hr class="m_divider">
+                <div id="conservation"></div>
+                <!-- 3-4. Blog -->
+                <section class="blog_section container">
+                    <div class="cf">
+                        <h2 class="sec_title">Green Habitats</h2>
+                        <ul class="blog_list cf">
+                            <li>
+                                <a href="#">
+                                    <img src="./images/PADI/c1.jpg" alt="c1">
+                                </a>
+                                <p>
+                                    <h2><span>Species:</span> Dugong</h2>
+                                    <h3>
+                                        <span>Where to find:</span> Marsa Alam, Egypt
+                                    </h3>
+                                </p>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/PADI/c22.jpg" alt="c2">
+                                </a>
+                                <p>
+                                    <h2><span>Species:</span> Green Sea Turtle</h2>
+                                    <h3>
+                                        <span>Where to find:</span> The Gili Islands, Indonesia
+                                    </h3>
+                                </p>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/PADI/c3.jpg" alt="c3">
+                                </a>
+                                <p>
+                                    <h2><span>Species:</span> Seagrass Filefish</h2>
+                                    <h3>
+                                        <span>Where to find:</span> Lembeh Strait, Indonesia
+                                    </h3>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- /3-4. Blog -->
+                <div id="contact"></div>
+                <!-- 3-5. Contact -->
+                <section class="contact_section container">
+                    <div class="cf">
+                        <h2 class="sec_title">Contact Us</h2>
+                        <form action="#" class="form_box">
+                            <fieldset class="cf">
+                                <legend class="blind">Submit a Request</legend>
+                                <!-- Input Form -->
+                                <div class="form-group inp">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" class="form-control">
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" id="phone" class="form-control">
+                                    <label for="email">E-Mail</label>
+                                    <input type="email" id="email" class="form-control">
+                                </div>
+                                <!-- /Input Form -->
+                                <!-- Textarea Form -->
+                                <div class="txta form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" class="form-control"></textarea>
+                                </div>
+                                <!-- /Textarea Form -->
+                            </fieldset>
+                            <!-- Button -->
+                            <div class="send">
+                                <button>Submit</button>
+                            </div>
+                            <!-- /Button -->
+                        </form>
+                    </div>
+                </section>
+                <!-- /3-5. Contact -->
+            </section>
+        </main>
+        <!-- 3. /Contents -->
+
+        <!-- 4. Footer -->
+        <footer class="footer">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.760332420911!2d127.07108448906371!3d37.51357045511397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca45090ecd529%3A0xab7bff918fdc0f4a!2z7J6g7Iuk7Iqk7YKo7Iqk7L-g67KE64uk7J2067mZ!5e0!3m2!1sko!2skr!4v1686900817784!5m2!1sko!2skr"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p>
+                COPYRIGHT ALL RIGHTS RESERVED., <span>PADI</spa>
+            </p>
+        </footer>
+        <!-- 4. /Footer -->
+    </div>
+<script>
+    // 슬라이드
+    $('.slide_gallery').bxSlider({
+        auto:true,
+        mode: 'horizontal',
+        speed: 1000,
+        pause: 3000,
+        autoHover: true,
+        /* autoControls: true, */
+        pager: true,
+        // slideWidth: 1440
+    });
+</script>
+<script src="./js/rwd_template.js"></script>
+</body>
+</html>
