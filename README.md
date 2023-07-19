@@ -21,10 +21,14 @@
   2. (위 링크 실행 안될시) https://judiking1.cafe24.com/padi
 </p>
 
+<div align="center">
+
 ![image](https://github.com/judiking1/padi/assets/110409369/2b242a54-8b88-4c80-bce1-11a367df4b07)
 
 ![image](https://github.com/judiking1/padi/assets/110409369/9e6b3d76-f227-4b67-a20f-b4215549d010)
 
 ![image](https://github.com/judiking1/padi/assets/110409369/a54dab53-3b59-4632-b48a-618240359078)
+
+</div>
 
 
